@@ -1,0 +1,36 @@
+# === Core apps ===
+streamlit>=1.38
+dash>=2.18
+plotly>=5.24
+
+# === Data & tables ===
+pandas>=2.2
+numpy>=1.26
+
+# === Stats & DOE/ANOVA/GLM ===
+scipy>=1.11
+statsmodels>=0.14
+scikit-learn>=1.5
+
+# === Files: Excel / PDF / images ===
+openpyxl>=3.1        # escribir/leer .xlsx
+xlrd>=2.0            # leer .xls (antiguos)
+reportlab>=4.1       # crear PDFs
+pypdf2>=3.0          # combinar/manipular PDFs
+Pillow>=10.4         # manejo de imágenes
+
+# === Exportación de gráficos ===
+kaleido>=0.2.1       # plotly.write_image para PNG/PDF/SVG
+
+# === Documentos opcionales (si los usas) ===
+python-docx>=1.1     # Word
+python-pptx>=0.6.23  # PowerPoint
+
+# === Seguridad / API / BD (para multiusuario más adelante) ===
+fastapi>=0.115       # API backend
+uvicorn[standard]>=0.32
+SQLAlchemy>=2.0
+psycopg2-binary>=2.9 # PostgreSQL (producción); para SQLite no necesitas esto
+python-dotenv>=1.0   # variables de entorno
+
+## === Utilidades ===
